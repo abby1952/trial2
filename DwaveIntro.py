@@ -17,7 +17,7 @@ for i in range(8):
 
 # Objective
 
-for i,j in G.Edges:
+for i,j in G.edges:
 	Q[(i,i)] +=1
 	Q[(j,j)] +=1
 	Q[(i,j)] +=-2
